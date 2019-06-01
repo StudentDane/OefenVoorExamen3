@@ -18,6 +18,7 @@ namespace LussenOnderbreken.Wpf
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// Test
     public partial class MainWindow : Window
     {
         string[] spelersNamen = { "Ann", "Piet", "Axelle", "Marian" };
