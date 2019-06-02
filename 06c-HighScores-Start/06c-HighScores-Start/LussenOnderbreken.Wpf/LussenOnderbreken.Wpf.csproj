@@ -93,5 +93,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Highscore.Lib\Highscore.Lib.csproj">
+      <Project>{07e2072d-ee79-41c4-97b9-11c02009d527}</Project>
+      <Name>Highscore.Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
